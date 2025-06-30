@@ -744,7 +744,26 @@
         /* Mobile Responsive */
         @media (max-width: 768px) {
             .nav-links {
-                display:block;
+                display: none;
+                flex-direction: column;
+                position: absolute;
+                top: 70px;
+                left: 0;
+                right: 0;
+                background-color: var(--primary);
+                padding: 1rem;
+            }
+
+            .nav-links.active {
+                display: flex;
+            }
+            
+            .nav-links li {
+                margin: 1rem 0;
+            }
+            
+            .mobile-menu {
+                display: block;
             }
             
             .hero h1 {
