@@ -744,7 +744,7 @@
         /* Mobile Responsive */
         @media (max-width: 768px) {
             .nav-links {
-                display: none;
+                display: grid;
                 flex-direction: column;
                 position: absolute;
                 top: 70px;
