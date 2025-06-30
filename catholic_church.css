@@ -679,17 +679,6 @@
             background-color: rgba(255, 255, 255, 0.2);
         }
 
-         .social-links {
-            margin: 1rem 0;
-            justify-items: auto;
-        }
-        
-        .social-links a {
-            color: white;
-            font-size: 1rem;
-        }
-
-
         .footer-wrapper .footer-copyright {
             font-size: 0.9rem;
             color: rgba(255, 255, 255, 0.7);
