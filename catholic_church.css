@@ -331,7 +331,7 @@
             padding: 8px 12px;
             border-radius: 12px;
             font-weight: 500;
-            transition: background 0.3s ease, color 0.3s ease;
+            transition: 0.3s ease, color 0.3s ease;
         }
 
         .parish-information-item:hover {
@@ -509,7 +509,7 @@
             padding: 10px 20px;
             border-radius: 5px;
             text-decoration: none;
-            transition: background 0.3s ease, transform 0.3s ease;
+            transition: 0.3s ease, transform 0.3s ease;
         }
 
         .news-wrapper .read-more:hover {
