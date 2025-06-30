@@ -742,6 +742,19 @@
         }
 
         /* Mobile Responsive */
+
+        @media (min-width: 640px) {
+            .container { padding: 0 1.5rem; }
+        }
+
+        @media (min-width: 768px) {
+            .container { padding: 0 2rem; max-width: 768px; }
+        }
+
+        @media (min-width: 1024px) {
+            .container { max-width: 1024px; }
+        }
+        
         @media (max-width: 768px) {
             .nav-links {
                 display: grid;
