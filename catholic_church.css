@@ -647,6 +647,18 @@
             animation: rotateGradient 15s linear infinite;
         }
 
+        .social-links{
+            text-align: center;
+            size: 2rem;
+            font-size: 1rem;
+            margin: 1rem 0;
+            justify-items: auto;
+        }
+
+        .social-links a:hover{
+            color:green;
+        }
+
         @keyframes rotateGradient {
             from {
                 transform: rotate(0deg);
