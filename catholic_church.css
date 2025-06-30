@@ -744,7 +744,7 @@
         /* Mobile Responsive */
         @media (max-width: 768px) {
             .nav-links {
-                display:flex;
+                display:block;
             }
             
             .hero h1 {
