@@ -885,7 +885,7 @@
         /* Mobile Navigation */
         @media (max-width: 767px) {
             .menu-toggle {
-                display: flex;
+                display:none;
             }
 
             .nav-links {
@@ -966,6 +966,9 @@
                 width: 45px;
                 height: 45px;
                 font-size: 1.1rem;
+            }
+            .mobile-menu {
+                display: block;
             }
         }
 
