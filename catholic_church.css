@@ -83,7 +83,7 @@
 
         /* Hero Section */
         .hero {
-            background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(images/img3.jpg, viewBox="0 0 1200 800"><rect fill="%23e8f4f8" width="1200" height="800"/><path fill="%23d4edda" d="M0,400 Q300,200 600,400 T1200,400 V800 H0 Z"/><circle fill="%23ffc107" cx="900" cy="150" r="80" opacity="0.3"/><circle fill="%2317a2b8" cx="300" cy="600" r="60" opacity="0.2"/></svg>');
+            background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(images/img3.jpg);
             background-size:cover;
             background-position: center;
             height: 100vh;
@@ -92,7 +92,6 @@
             text-align: center;
             color: white;
             position: relative;
-            padding: 80px 0 40px;
         }
 
         .hero-content {
