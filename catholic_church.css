@@ -96,7 +96,6 @@
 
         .hero-content {
             animation: fadeInUp 1s ease;
-            padding: 0 20px;
         }
 
         .hero h1 {
@@ -222,7 +221,7 @@
         }
 
         .about-image {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            background: linear-gradient(135deg, #070b1a 0%, #2c2533 100%), url(images/Padre3.jpeg);
             height: 400px;
             border-radius: 20px;
             display: flex;
