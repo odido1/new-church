@@ -375,7 +375,7 @@
         .timeline-item {
             display: flex;
             justify-content: flex-end;
-            padding: 1rem 0;
+            padding: 2rem 0;
             position: relative;
             width: 50%;
         }
@@ -791,12 +791,12 @@
             }
 
             .about-text {
-                order: 1;
+                order: 2;
             }
 
             .about-image {
                 height: 300px;
-                order: 2;
+
             }
 
             .contact-grid {
