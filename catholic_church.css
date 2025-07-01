@@ -357,7 +357,6 @@
         .timeline {
             position: relative;
             margin: 2rem 0;
-            padding-left: 30px;
         }
 
         .timeline::before {
@@ -373,7 +372,7 @@
         .timeline-item {
             display: flex;
             justify-content: flex-end;
-            padding: 2rem 0;
+            padding: 1rem 0;
             position: relative;
             width: 50%;
         }
