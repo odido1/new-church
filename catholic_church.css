@@ -91,7 +91,7 @@
             align-items: center;
             text-align: center;
             color: white;
-            position: relative;
+            padding: 8rem 1rem;
         }
 
         .hero-content {
@@ -744,252 +744,33 @@
             transform: translateY(0);
         }
 
-         /* Tablet Styles */
-        @media (min-width: 768px) {
-            .container {
-                padding: 0 30px;
-            }
-
-            .hero {
-                padding: 120px 0 60px;
-            }
-
-            .section {
-                padding: 80px 0;
-            }
-
-            .section h2 {
-                margin-bottom: 3rem;
-            }
-
-            .grid {
-                grid-template-columns: repeat(2, 1fr);
-                gap: 2rem;
-            }
-
-            .about-content {
-                grid-template-columns: 1fr 1fr;
-                gap: 3rem;
-            }
-
-            .about-text {
-                order: 2;
-            }
-
-            .about-image {
-                height: 300px;
-
-            }
-
-            .contact-grid {
-                grid-template-columns: 1fr 1fr;
-                gap: 3rem;
-            }
-
-            .contact-info {
-                order: 1;
-            }
-
-            .contact-form {
-                order: 2;
-            }
-
-            .submit-btn {
-                width: auto;
-                min-width: 150px;
-            }
-
-            .timeline {
-                padding-left: 0;
-                max-width: 800px;
-                margin: 2rem auto;
-            }
-
-            .timeline::before {
-                left: 50%;
-                transform: translateX(-50%);
-            }
-
-            .timeline-item {
-                width: 50%;
-                padding-left: 0;
-                padding-right: 40px;
-                text-align: right;
-            }
-
-            .timeline-item:nth-child(even) {
-                margin-left: 50%;
-                text-align: left;
-                padding-left: 40px;
-                padding-right: 0;
-            }
-
-            .timeline-item::before {
-                right: -8px;
-                left: auto;
-            }
-
-            .timeline-item:nth-child(even)::before {
-                left: -8px;
-                right: auto;
-            }
-        }
-
-        /* Desktop Styles */
-        @media (min-width: 1024px) {
-            .logo {
-                font-size: 1.5rem;
-            }
-
-            .logo::before {
-                font-size: 2rem;
-            }
-
-            .hero {
-                padding: 140px 0 80px;
-            }
-
-            .grid {
-                grid-template-columns: repeat(3, 1fr);
-            }
-
-            .about-content {
-                gap: 4rem;
-            }
-
-            .about-image {
-                height: 400px;
-                font-size: 5rem;
-            }
-
-            .contact-grid {
-                gap: 4rem;
-            }
-
-            .card {
-                padding: 2rem;
-            }
-        }
-
         /* Mobile Navigation */
-        @media (max-width: 767px) {
-            .menu-toggle {
-                display:inline-block;
-            }
-
+        @media (max-width: 768px) {
             .nav-links {
-                position: fixed;
-                top: 0;
-                right: -100%;
-                width: 100%;
-                height: 100vh;
-                background: linear-gradient(135deg, #2c3e50 0%, #3498db 100%);
+                display: none;
                 flex-direction: column;
-                justify-content: center;
-                align-items: center;
-                gap: 2rem;
-                transition: right 0.3s ease;
-                z-index: 1000;
-                padding-top: 80px;
-            }
-
-            .nav-links.active {
+                position: absolute;
+                top: 70px;
+                left: 0;
                 right: 0;
-            }
-
-            .nav-links a {
-                font-size: 1.5rem;
-                padding: 1rem 2rem;
-                width: 80%;
-                text-align: center;
-                border-radius: 10px;
-            }
-
-            .nav-links a:hover {
-                background: rgba(255,255,255,0.2);
-            }
-
-            .logo {
-                font-size: 1rem;
-            }
-
-            .logo::before {
-                font-size: 1.3rem;
-            }
-
-            .hero {
-                min-height: 100vh;
-                padding: 100px 0 40px;
-            }
-
-            .section {
-                padding: 40px 0;
-            }
-
-            .section h2 {
-                margin-bottom: 1.5rem;
-            }
-
-            .card {
-                margin-bottom: 1rem;
-            }
-
-            .about-image {
-                height: 200px;
-                font-size: 3rem;
-            }
-
-            .timeline {
-                padding-left: 20px;
-            }
-
-            .timeline-item {
-                padding-left: 30px;
-            }
-
-            .social-links {
-                gap: 0.5rem;
-            }
-
-            .social-link {
-                width: 45px;
-                height: 45px;
-                font-size: 1.1rem;
+                background-color: var(--primary);
+                padding: 1rem;
             }
             
-        }
-
-        /* Extra Small Mobile */
-        @media (max-width: 480px) {
-            .container {
-                padding: 0 15px;
+            .nav-links.active {
+                display: flex;
             }
-
+            
+            .nav-links li {
+                margin: 1rem 0;
+            }
+            
+            .mobile-menu {
+                display: block;
+            }
+            
             .hero h1 {
                 font-size: 2rem;
-            }
-
-            .hero p {
-                font-size: 1rem;
-            }
-
-            .cta-button {
-                padding: 12px 25px;
-                font-size: 1rem;
-            }
-
-            .card {
-                padding: 1.25rem;
-            }
-
-            .contact-info,
-            .contact-form {
-                padding: 1.5rem;
-            }
-
-            .form-group input,
-            .form-group textarea {
-                padding: 10px 12px;
             }
         }
 
