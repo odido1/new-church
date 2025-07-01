@@ -874,7 +874,7 @@
         /* Mobile Navigation */
         @media (max-width: 767px) {
             .menu-toggle {
-                display:none;
+                display:inline-block;
             }
 
             .nav-links {
